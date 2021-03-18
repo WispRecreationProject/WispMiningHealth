@@ -7,5 +7,7 @@
 This is the source code for the plugin that recreates the plugin in https://www.youtube.com/watch?v=ZHZXMc4Nbso, which doubles your max health every time you mine 25 blocks.
 
 Spigot page: https://www.spigotmc.org/resources/wisp-mining-doubles-your-health-challenge-recreation.90293/
+
 bStats page: https://bstats.org/plugin/bukkit/WispMiningDoublesYourHealth/10717
+
 Discord: https://discord.gg/YN7X5sx2
