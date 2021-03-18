@@ -1,5 +1,6 @@
 package dev.yhdiamond.wispmininghealth;
 
+import dev.yhdiamond.wispmininghealth.bstats.Metrics;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -18,6 +19,7 @@ public final class WispMiningHealth extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new MiningListener(), this);
         getCommand("wispmininghealth").setExecutor(new StartCommand());
         getCommand("wispmininghealth").setTabCompleter(new CommandComplete());
+        new Metrics(this, 10717);
     }
 
 }
