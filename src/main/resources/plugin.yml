@@ -1,0 +1,8 @@
+name: WispMiningHealth
+version: ${project.version}
+main: dev.yhdiamond.wispmininghealth.WispMiningHealth
+api-version: 1.16
+commands:
+  wispmininghealth:
+    usage: /wispmininghealth <start/stop>
+    description: Start the Wisp Mining Doubles your Health challenge
